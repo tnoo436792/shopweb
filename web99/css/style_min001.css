@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#panel dd {
+	width: 100%;
+	background-color: rgba(171,172,227,1.00);
+}
+#panel dt h2 {
+	font-family: "微軟正黑體", "新細明體", "標楷體", Arial;
+	text-align: center;
+}
+
+#panel dt {
+	background-color: rgba(60,63,219,1.00);
+	width:100%;
+	cursor: pointer;/*滑入只是有手沒有超連結*/
+	
+	
+	border-top: 2px inset rgba(7,7,7,1.00);
+}

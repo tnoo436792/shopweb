@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: rgba(181,125,75,1.00);
+	background-repeat: repeat;
+	background-image: url(../image/16008195.jpg);
+	text-align: center;
+}
+#wrapper {
+	width:99%;
+	background-color: rgba(255,239,212,1.00);
+	margin:auto;
+}
+#wrapper header {
+	width: 100%;
+	height: 150px;
+	background-color: #3443EB;
+}
+#shiLogo{
+	width: 145px;
+	height: 90px;
+	background-image: url(../image/325944.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+	
+}
+#shiLogo a{
+	width:100%;
+	height:100%;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+#wrapper nav {
+	width: 100%;
+	height: 45px;
+	background-color: #BEC8DD;
+	float: left;
+}
+#wrapper nav #navmenu {
+	text-align: center;
+	font-family: "細明體", "新細明體", "標楷體", Arial;
+	font-size: 2em;
+	color: #121010;
+	padding-top: 10px;
+	top: 10px;
+}
+#wrapper sidebar {
+	width: 20%;
+	min-height: 800px;
+	float: left;
+	background-color: #ED070A;
+}
+#wrapper sidebar #sidebarmenu{
+	color: #E4DE6D;
+	font-family: "細明體", "新細明體", "標楷體", Arial;
+	font-size: 2em;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+
+
+#wrapper news {
+	width: 80%;
+	height: 200px;
+	background-color: #E7E623;
+	float: right;
+}
+#wrapper content {
+	background-color: #0818F2;
+	width: 80%;
+	min-height: 600px;
+	float: right;
+}
+#wrapper footer {
+	background-color: #92EBBD;
+	width: 100%;
+	height: 35px;
+}
+
